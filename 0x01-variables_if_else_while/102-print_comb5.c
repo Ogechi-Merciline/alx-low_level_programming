@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - prints all combinations of two two digits
+ * numbers should be separated by a space,
+ * they should range from 0 to 99 and they should be printed in two digits
+ *
+ * Return: 0 (success)
+ */
+
 int main(void)
 {
 	int i, j;
@@ -21,5 +29,8 @@ int main(void)
 			putchar (' ');
 		}
 	}
+
+	putchar('\n');
+
 	return (0);
 }
