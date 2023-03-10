@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+	main - entry
+	Return: 0 (success)
+{
+	printf("Hello world\n");
+	return (0);
+}
+
