@@ -1,6 +1,4 @@
-
 #include "main.h"
-
 #include <stdlib.h>
 
 /**
@@ -39,8 +37,7 @@ int **alloc_grid(int width, int height)
 			free(mee);
 
 			return (NULL);
-
-	}
+		}
 
 	for (x = 0; x < height; x++)
 
@@ -49,6 +46,6 @@ int **alloc_grid(int width, int height)
 
 			mee[x][y] = 0;
 	}
-
 	return (mee);
+	}
 }
