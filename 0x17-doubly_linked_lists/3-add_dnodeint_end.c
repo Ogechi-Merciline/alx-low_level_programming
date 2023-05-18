@@ -8,7 +8,7 @@
  * @prev: points to the previous node
  * @next: points to the next node
  * @new_node: points to the new node at the end of list
- * Description: add_dnodeint - new node at the beginning of a dlistint_t list
+ * Description: new node at the beginning of a dlistint_t list
  * main - check the code
  * @h - pointer to the list_t list to print
  * Return: the address of the new element
